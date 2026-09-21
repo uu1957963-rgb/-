@@ -1,0 +1,41 @@
+name: MinervaCore
+version: 1.0.0
+main: me.user.minervacore.MinervaCore
+api-version: '1.21'
+author: User
+description: Core Plugin for Battle, Teams, Arena, and Final Meteor
+
+commands:
+  명령어:
+    description: 서버의 모든 명령어 목록을 확인합니다. (OP 전용)
+  대기:
+    description: 게임 대기 모드 (보더 20x20, 블록 설치 및 파괴 방지) (OP 전용)
+  청키:
+    description: 지정 영역 청크 사전 생성 시스템 (/청키 시작 [반경], /청키 중지) (OP 전용)
+  팀:
+    description: 팀 관리 명령어 (/팀 구성, /팀 지정, /팀 초기화) (OP 전용)
+  자원:
+    description: 자원 시간 시작 (/자원 [시간] [보더] [X] [Y] [Z] 또는 /자원 [시간] [보더]) (OP 전용)
+    aliases: [자원시간]
+  템:
+    description: 네더라이트 곡괭이/겉날개/도구 세트/200레벨 지급 (OP 전용)
+  발광:
+    description: 대상 또는 전원 팀 색상 발광 부여 (OP 전용)
+  아이피:
+    description: 유저 IP 조회 및 데이터베이스 관리 (/아이피 확인 <닉네임>) (OP 전용)
+  롤백:
+    description: CoreProtect 연동 서버 롤백 (/롤백 <시간>) (OP 전용)
+  초기화:
+    description: 진행 중인 모든 타이머, 보더, 무적, 킬수, 상태 전체 리셋 (OP 전용)
+  무적모드:
+    description: 무적 모드 해제 (/무적모드 풀기) (OP 전용)
+  1등:
+    description: 지정 플레이어 우승 선언 및 축하 폭죽 연출 (/1등 <닉네임>) (OP 전용)
+  수선:
+    description: 들고 있는 아이템에 수선 인챈트 부여
+  가시제거:
+    description: 들고 있는 방어구/아이템에서 가시 인챈트 제거
+  tp:
+    description: 자원 시간 동안 팀원에게 1회 이동
+  top:
+    description: 지상 텔레포트
